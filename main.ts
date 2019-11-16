@@ -283,6 +283,16 @@ namespace Rover
         return value;
     }
 
+    //% blockId="motor_angle"
+    //% block="angle"
+    //% weight=80
+    //% subcategory=Servos
+
+    export function getMotorAngle(): void
+    {
+	return "hello";
+    }
+
 // MOTOR BLOCKS
 
     /**
